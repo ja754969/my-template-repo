@@ -1,0 +1,64 @@
+# === Python ignores ===
+__pycache__/
+*.py[cod]
+*$py.class
+.env/
+.venv/
+venv/
+ENV/
+env/
+.pipenv/
+.ipynb_checkpoints/
+*.log
+*.pot
+*.pyc
+*.pyo
+.vscode/
+.idea/
+*.sublime*
+
+# === MATLAB ignores ===
+*.asv
+*.m~ 
+*.mlx~
+*.fig~
+*.mat~ 
+*.p~ 
+*.bak
+slprj/
+*.slxc
+*.slxp
+*.mdl.autosave
+*.slx.autosave
+*.autosave
+matlab_crash_dump.*
+
+# === Document files ===
+*.doc
+*.docx
+*.odt
+*.pdf
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# === Image files ===
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.psd
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+
+# === Manually added large files (update with shell command as explained above) ===
+# find . -size +100M | sed 's|^./||' >> .gitignore
+# sort -u -o .gitignore .gitignore  # Removes duplicate lines
