@@ -53,6 +53,9 @@ matlab_crash_dump.*
 *.svg
 *.psd
 
+# === data files ===
+*.nc
+
 # === OS generated ===
 .DS_Store
 Thumbs.db
